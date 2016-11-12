@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        
+        <form name="test" action="form_servlet" method="POST">
+            <div>Fornavn: <input type="text" name="fornavn" /></div><br>
+            <div>Efternavn:<input type="text" name="efternavn" /></div><br>
+            <div>By:<input type="text" name="by" /></div><br>
+            <div>Email:<input type="text" name="email" /></div><br>
+            <div>Mobil:<input type="text" name="mobil" /></div><br>
+            <div>Fødselsår:<select name="fodselsar" ><br>
+                <option value ="1900">1900</option>
+                <option value ="1950">1950</option>
+                <option value ="2000">2000</option>
+                
+                </select></div>
+            <br>
+            <div>Vælg køn:<br>
+            Mand:<input type="radio" name="kon" value="mand"  />
+            Kvinde:<input type="radio" name="kon" value="kvinde" /></div><br>
+            <div>Beskrivelse:<br><textarea name="beskrivelse" rows="4" cols="20" value="beskrivelse">
+                </textarea></div><br>
+                <div>Link til evt billede:<input type="text" name="link_til_billede" /></div><br>
+                <div><input type="submit" value="Send" /><div><br>
+        </form>
+        
+        <div>
+            <a  class="links" href="index2.html">Link til side form som udskrives via JSP</a>
+            <div>
+    </body>
+</html>
